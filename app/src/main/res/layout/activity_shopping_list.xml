@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerVertical="true"
+    android:layout_centerHorizontal="true"
+    android:orientation="vertical"
+    tools:context="com.example.qasiminayat.madproject.ShoppingList">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SHOPPING PLANNIG"
+        android:textColor="@color/colorPrimary"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_marginTop="95dp"
+        />
+
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="180dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="30dp"
+
+        android:orientation="horizontal">
+
+
+
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/grocsry"/>
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:background="#00ffffff"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:id="@+id/Button_Products"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimary"
+                android:layout_marginTop="160dp"
+                android:layout_marginLeft="20dp"
+                android:text="GROCESSARY"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                />
+
+        </RelativeLayout>
+
+
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/costmetics"/>
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:background="#00ffffff"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:id="@+id/Button_Costmetics"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimary"
+                android:layout_marginTop="160dp"
+                android:layout_marginLeft="25dp"
+                android:text="COSTMETICS"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                />
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="180dp"
+        android:layout_marginLeft="40dp"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/stationary"/>
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:background="#00ffffff"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:id="@+id/Button_Stationary"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimary"
+                android:layout_marginTop="160dp"
+                android:layout_marginLeft="25dp"
+                android:text="STATIONARY"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                />
+
+        </RelativeLayout>
+
+
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/drugs" />
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:background="#00ffffff"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:id="@+id/Button_Drugs"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimary"
+                android:layout_marginTop="160dp"
+                android:layout_marginLeft="38dp"
+                android:text="DRUGS"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
+
